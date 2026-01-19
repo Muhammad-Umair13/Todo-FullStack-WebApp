@@ -1,0 +1,9 @@
+{
+  "build": {
+    "rootDirectory": "backend",
+    "command": "pip install -r requirements.txt"
+  },
+  "deploy": {
+    "startCommand": "uvicorn src.main:app --host 0.0.0.0 --port $PORT"
+  }
+}
