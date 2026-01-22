@@ -40,7 +40,7 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-secondary-50">
-      <Header user={null} />
+      <Header />
 
       {/* Hero Section */}
       <section className="relative overflow-hidden">

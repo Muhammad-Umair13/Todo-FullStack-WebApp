@@ -84,7 +84,7 @@ export default function LoginPage() {
 
   return (
     <div className="min-h-screen bg-secondary-50">
-      <Header user={null} />
+      <Header />
 
       <main className="py-12">
         <Container size="sm">
